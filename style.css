@@ -32,7 +32,11 @@ body {
 
 }
 
-.work-popup.open {
+.work-modal-cont {
+    display: none;
+}
+
+.work-modal-cont.open {
     display: flex;
   }
 

@@ -15,16 +15,18 @@ window.addEventListener('DOMContentLoaded', () => {
     <h2>Day <span>04</span></h2>
 </div>
 </div>
+<div>
 <div class="right-side>
 <small>fronenddevelopment <span>follow</span></small>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo, sunt debitis similique voluptatum dolorem. Culpa accusamus tenetur qui quis hic sed cupiditate distinctio laborum, adipisci voluptate porro! Perferendis, nostrum.</p>
+</div>
 </div>`;
 });
 
 clickedDiv.forEach((e) => {
     e.addEventListener('click', () => {
-        console.log('hi')
-        clickedDiv.classList.add('open');
+        // console.log('hi')
+        modal.classList.add('open');
         mainBody.classList.add('fixed');
     })
 })
