@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    display: flex;
+}
+
+.image img {
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 10px;
+}
+
+.relative {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #fff;
+
+}
+
+.work-popup.open {
+    display: flex;
+  }
+
+  .fixed {
+    position: fixed;
+  }
