@@ -38,8 +38,14 @@ body {
 
 .work-modal-cont.open {
     display: flex;
+    flex-direction: column;
+    height: 1100px;
   }
 
   .fixed {
     position: fixed;
+  }
+
+  .popupWindow {
+    display: flex;
   }
