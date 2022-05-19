@@ -46,9 +46,6 @@ const imagesUI = () => {
   });
 };
  
- 
- 
- 
 window.addEventListener('DOMContentLoaded', () => {
   imagesUI();
 });
@@ -78,10 +75,6 @@ const popupUI = (index) => {
     if(list.id === index) modal.innerHTML += modalHtml(list)
   });
 };
- 
- 
- 
- 
  
 imageCont.addEventListener('click', (e) => {
   if (
